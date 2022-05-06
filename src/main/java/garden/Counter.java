@@ -1,13 +1,13 @@
 public class Counter {
 
-	private int value;
+	private int value = 0;
 
 	public int readValue() {
-		return 0;
+		return value;
 	}
 
 	public void writeValue() {
-
+		value += 1;
 	}
 
 }

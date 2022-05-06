@@ -1,10 +1,6 @@
 public class Turnstile extends Thread {
 
-	private int count;
-
-	private Counter Counter;
-
-	private Counter counter;
+	private Counter count;
 
 	public void run() {
 

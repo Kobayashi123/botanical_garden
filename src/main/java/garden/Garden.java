@@ -1,11 +1,12 @@
 public class Garden {
 
-	private Counter count;
+	private static Counter count;
 
-	private Turnstile[] turnstile;
+	private static Turnstile turnstile;
 
-	public void main() {
-
+	public static void main(String[] args) {
+		turnstile = new Turnstile();
+		turnstile.run();
 	}
 
 }

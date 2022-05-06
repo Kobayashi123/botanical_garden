@@ -4,8 +4,6 @@ public class Garden {
 
 	private Turnstile[] turnstile;
 
-	private Counter counter;
-
 	public void main() {
 
 	}

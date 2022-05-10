@@ -1,14 +1,20 @@
 public class Turnstile extends Thread {
 
-	private Counter count;
+	private Counter count = new Counter();
+	private String str;
+
+	Turnstile(String str) {
+		this.str = str;
+	}
 
 	public void run() {
-		int i = 0;
-		count = new Counter();
-		while (i < 10) {
+		int i = 1;
+
+		while (i <= 100) {
 			count.writeValue();
-			System.out.println(count.readValue());
+			System.out.println(str + "gate: " + i + "     total: " + count.readValue());
 			i++;
+			Thread.yield();
 		}
 	}
 

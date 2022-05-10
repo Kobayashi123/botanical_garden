@@ -31,3 +31,8 @@ mvn package<br>
 git clone https://github.com/Kobayashi123/botanical_garden.git<br>
 cd botanical_garden<br>
 mvn compile<br>
+
+## Author
+
+**作成者** 小林 舜
+**E メール** g2053417@cc.kyoto-su.ac.jp

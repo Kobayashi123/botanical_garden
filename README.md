@@ -2,11 +2,13 @@
 
 ## 実行方法
 
+### jar ファイルの実行
+
 git clone https://github.com/Kobayashi123/botanical_garden.git<br>
 cd botanical_garden<br>
 java -jar target/Garden-1.0.0.jar<br>
 
-もしくは、
+### java ファイルの実行
 
 git clone https://github.com/Kobayashi123/botanical_garden.git<br>
 cd botanical_garden/target/classes<br>

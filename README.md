@@ -2,30 +2,30 @@
 
 ## 実行方法
 
-git clone https://github.com/Kobayashi123/botanical_garden.git
-cd botanical_garden
-java -jar target/Garden-1.0.0.jar
+git clone https://github.com/Kobayashi123/botanical_garden.git<br>
+cd botanical_garden<br>
+java -jar target/Garden-1.0.0.jar<br>
 
 もしくは、
 
-git clone https://github.com/Kobayashi123/botanical_garden.git
-cd botanical_garden/target/classes
-java Garden
+git clone https://github.com/Kobayashi123/botanical_garden.git<br>
+cd botanical_garden/target/classes<br>
+java Garden<br>
 
 ## コンパイル方法
 
-target ディレクトリに jar ファイルを用意しているため、コンパイルは不要である。
-しかし、java プログラムからビルドすることも可能である。
-ビルドツールには Maven を使用している。
+target ディレクトリに jar ファイルを用意しているため、コンパイルは不要である。<br>
+しかし、java プログラムからビルドすることも可能である。<br>
+ビルドツールには Maven を使用している。<br>
 
 ### パッケージ化
 
-git clone https://github.com/Kobayashi123/botanical_garden.git
-cd botanical_garden
-mvn package
+git clone https://github.com/Kobayashi123/botanical_garden.git<br>
+cd botanical_garden<br>
+mvn package<br>
 
 ### コンパイル
 
-git clone https://github.com/Kobayashi123/botanical_garden.git
-cd botanical_garden
-mvn compile
+git clone https://github.com/Kobayashi123/botanical_garden.git<br>
+cd botanical_garden<br>
+mvn compile<br>

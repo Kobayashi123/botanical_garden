@@ -34,5 +34,5 @@ mvn compile<br>
 
 ## Author
 
-**作成者** 小林 舜
-**E メール** g2053417@cc.kyoto-su.ac.jp
+**作成者** 小林 舜<br>
+**E メール** g2053417@cc.kyoto-su.ac.jp<br>
